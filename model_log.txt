@@ -1,0 +1,677 @@
+INFO:root:Started model training
+INFO:root:Handled missing values using median
+INFO:root:Encoded categorical features
+INFO:root:Added feature: volume, carat_depth, polynomial features
+WARNING:root:Overfitting observed, applying regularization
+INFO:root:Model training completed successfully
+INFO:root:Started model training
+INFO:root:Handled missing values using median
+INFO:root:Encoded categorical features
+INFO:root:Added feature: volume, carat_depth, polynomial features
+WARNING:root:Overfitting observed, applying regularization
+INFO:root:Model training completed successfully
+INFO:shap:num_full_subsets = 2
+INFO:shap:remaining_weight_vector = array([0.19492121, 0.15479038, 0.13157182, 0.11695273, 0.10740557,
+       0.10120909, 0.09746061, 0.0956886 ])
+INFO:shap:num_paired_subset_sizes = 10
+INFO:shap:weight_left = np.float64(0.554544872149051)
+INFO:shap:np.sum(w_aug) = np.float64(21.0)
+INFO:shap:np.sum(self.kernelWeights) = np.float64(1.0000000000000002)
+INFO:shap:phi = array([1048.76553699,    0.        ,    0.        ,    0.        ,
+          0.        ,    0.        ,   65.69638598,    0.        ,
+          0.        ,    0.        ,  516.64401008,  694.70556869,
+        526.84019538,   44.93450912,    0.        ,    4.87539294,
+        115.1479273 ,   16.89199958,    0.        , -150.49778503,
+          0.        ])
+INFO:shap:num_full_subsets = 2
+INFO:shap:remaining_weight_vector = array([0.19492121, 0.15479038, 0.13157182, 0.11695273, 0.10740557,
+       0.10120909, 0.09746061, 0.0956886 ])
+INFO:shap:num_paired_subset_sizes = 10
+INFO:shap:weight_left = np.float64(0.554544872149051)
+INFO:shap:np.sum(w_aug) = np.float64(21.0)
+INFO:shap:np.sum(self.kernelWeights) = np.float64(1.0000000000000002)
+INFO:shap:phi = array([-1340.80957866,     0.        ,     0.        ,   112.59657913,
+           0.        ,     0.        ,     0.        ,    56.53429392,
+           0.        ,     0.        ,   120.85713005,  -539.49179165,
+        -568.01329063,     0.        ,   -25.44754034,     0.        ,
+           0.        ,   -34.41514126,   -29.43446839,    40.67251317,
+           0.        ])
+INFO:shap:num_full_subsets = 2
+INFO:shap:remaining_weight_vector = array([0.19492121, 0.15479038, 0.13157182, 0.11695273, 0.10740557,
+       0.10120909, 0.09746061, 0.0956886 ])
+INFO:shap:num_paired_subset_sizes = 10
+INFO:shap:weight_left = np.float64(0.554544872149051)
+INFO:shap:np.sum(w_aug) = np.float64(20.999999999999996)
+INFO:shap:np.sum(self.kernelWeights) = np.float64(1.0000000000000002)
+INFO:shap:phi = array([-1471.92983706,     0.        ,     0.        ,     0.        ,
+           0.        ,   -13.72379506,     0.        ,     0.        ,
+          51.99699288,     0.        ,     0.        ,  -537.25677509,
+        -555.96140794,     0.        ,   -53.46991544,    51.00547976,
+           0.        ,   -10.31016333,  -138.83480169,    37.44438152,
+           0.        ])
+INFO:shap:num_full_subsets = 2
+INFO:shap:remaining_weight_vector = array([0.19492121, 0.15479038, 0.13157182, 0.11695273, 0.10740557,
+       0.10120909, 0.09746061, 0.0956886 ])
+INFO:shap:num_paired_subset_sizes = 10
+INFO:shap:weight_left = np.float64(0.554544872149051)
+INFO:shap:np.sum(w_aug) = np.float64(21.0)
+INFO:shap:np.sum(self.kernelWeights) = np.float64(1.0)
+INFO:shap:phi = array([6334.97287772,    0.        ,    0.        ,    0.        ,
+          0.        ,    0.        ,    0.        ,    0.        ,
+          0.        ,    0.        , -415.32368967, 3487.38458461,
+       3284.55661689,    0.        ,  157.82216193, -282.53433454,
+        111.47128837,  122.74813506,  297.18429381,    0.        ,
+        137.84833161])
+INFO:shap:num_full_subsets = 2
+INFO:shap:remaining_weight_vector = array([0.19492121, 0.15479038, 0.13157182, 0.11695273, 0.10740557,
+       0.10120909, 0.09746061, 0.0956886 ])
+INFO:shap:num_paired_subset_sizes = 10
+INFO:shap:weight_left = np.float64(0.554544872149051)
+INFO:shap:np.sum(w_aug) = np.float64(20.999999999999996)
+INFO:shap:np.sum(self.kernelWeights) = np.float64(1.0000000000000002)
+INFO:shap:phi = array([ 666.80645235,    0.        ,    0.        ,   34.90894092,
+         33.58802456,    0.        ,    0.        ,   34.46139556,
+          0.        ,    0.        ,  526.9555644 ,  511.65766391,
+        498.1575053 ,    0.        ,    0.        , -155.7548981 ,
+          0.        ,    0.        ,  129.04525253,    0.        ,
+         57.2351295 ])
+INFO:shap:num_full_subsets = 2
+INFO:shap:remaining_weight_vector = array([0.19492121, 0.15479038, 0.13157182, 0.11695273, 0.10740557,
+       0.10120909, 0.09746061, 0.0956886 ])
+INFO:shap:num_paired_subset_sizes = 10
+INFO:shap:weight_left = np.float64(0.554544872149051)
+INFO:shap:np.sum(w_aug) = np.float64(21.0)
+INFO:shap:np.sum(self.kernelWeights) = np.float64(1.0)
+INFO:shap:phi = array([ -791.32300707,    65.29376402,     0.        ,    64.77198647,
+          52.80482384,     0.        ,     0.        ,   -40.42792691,
+           0.        ,     0.        ,  -354.09740426, -1113.08209233,
+       -1075.82386781,     0.        ,   -78.14006189,     0.        ,
+         -49.06245755,     0.        ,     0.        ,     0.        ,
+           0.        ])
+INFO:shap:num_full_subsets = 2
+INFO:shap:remaining_weight_vector = array([0.19492121, 0.15479038, 0.13157182, 0.11695273, 0.10740557,
+       0.10120909, 0.09746061, 0.0956886 ])
+INFO:shap:num_paired_subset_sizes = 10
+INFO:shap:weight_left = np.float64(0.554544872149051)
+INFO:shap:np.sum(w_aug) = np.float64(21.0)
+INFO:shap:np.sum(self.kernelWeights) = np.float64(1.0)
+INFO:shap:phi = array([2476.19263689,    0.        ,   37.917104  ,  108.07825016,
+          0.        ,    0.        ,    0.        ,   18.8145674 ,
+          0.        ,    0.        ,  384.74797059, 1068.2401664 ,
+        971.38907907,    0.        ,    0.        ,  106.68149406,
+          0.        ,    0.        , -203.63239616,    0.        ,
+         22.57855255])
+INFO:shap:num_full_subsets = 2
+INFO:shap:remaining_weight_vector = array([0.19492121, 0.15479038, 0.13157182, 0.11695273, 0.10740557,
+       0.10120909, 0.09746061, 0.0956886 ])
+INFO:shap:num_paired_subset_sizes = 10
+INFO:shap:weight_left = np.float64(0.554544872149051)
+INFO:shap:np.sum(w_aug) = np.float64(21.0)
+INFO:shap:np.sum(self.kernelWeights) = np.float64(1.0000000000000002)
+INFO:shap:phi = array([-515.656697  ,    0.        ,    0.        ,    0.        ,
+         35.76758121,    0.        ,    6.58302041,    4.23464624,
+         12.48095179,    0.        ,  264.113775  ,  106.68112238,
+         63.36337179,    0.        ,    0.        ,    0.        ,
+         32.22169944,    0.        ,    0.        ,  -43.29832463,
+          0.        ])
+INFO:shap:num_full_subsets = 2
+INFO:shap:remaining_weight_vector = array([0.19492121, 0.15479038, 0.13157182, 0.11695273, 0.10740557,
+       0.10120909, 0.09746061, 0.0956886 ])
+INFO:shap:num_paired_subset_sizes = 10
+INFO:shap:weight_left = np.float64(0.554544872149051)
+INFO:shap:np.sum(w_aug) = np.float64(21.0)
+INFO:shap:np.sum(self.kernelWeights) = np.float64(1.0000000000000002)
+INFO:shap:phi = array([-528.27723304,    0.        ,    0.        ,    0.        ,
+        -40.01035009,  -36.61137212,    0.        ,    0.        ,
+          0.        ,    0.        ,  444.46086745,  364.99211898,
+        259.63947274,    0.        ,    0.        ,   53.19570698,
+         61.30180633,    0.        ,  -62.78540092,  -66.49623545,
+          0.        ])
+INFO:shap:num_full_subsets = 2
+INFO:shap:remaining_weight_vector = array([0.19492121, 0.15479038, 0.13157182, 0.11695273, 0.10740557,
+       0.10120909, 0.09746061, 0.0956886 ])
+INFO:shap:num_paired_subset_sizes = 10
+INFO:shap:weight_left = np.float64(0.554544872149051)
+INFO:shap:np.sum(w_aug) = np.float64(21.0)
+INFO:shap:np.sum(self.kernelWeights) = np.float64(1.0000000000000002)
+INFO:shap:phi = array([1368.55318791,    0.        ,    0.        ,    0.        ,
+          0.        ,    0.        ,   20.48116261,    0.        ,
+          0.        ,    0.        ,  539.21123703,  729.07764665,
+        653.01502783,    0.        ,   10.78257604,  112.52011554,
+          0.        ,   12.7380308 , -155.5682921 ,    0.        ,
+         17.05145626])
+INFO:shap:num_full_subsets = 2
+INFO:shap:remaining_weight_vector = array([0.19492121, 0.15479038, 0.13157182, 0.11695273, 0.10740557,
+       0.10120909, 0.09746061, 0.0956886 ])
+INFO:shap:num_paired_subset_sizes = 10
+INFO:shap:weight_left = np.float64(0.554544872149051)
+INFO:shap:np.sum(w_aug) = np.float64(21.0)
+INFO:shap:np.sum(self.kernelWeights) = np.float64(1.0)
+INFO:shap:phi = array([-1497.66263548,     0.        ,     0.        ,    55.59128843,
+         -47.46212473,     0.        ,     0.        ,     0.        ,
+           0.        ,     0.        ,    96.10063018,  -474.36493673,
+        -474.83839456,     0.        ,     0.        ,     0.        ,
+          27.1902423 ,     0.        ,    57.76261399,    37.08252632,
+         -33.71193397])
+INFO:shap:num_full_subsets = 2
+INFO:shap:remaining_weight_vector = array([0.19492121, 0.15479038, 0.13157182, 0.11695273, 0.10740557,
+       0.10120909, 0.09746061, 0.0956886 ])
+INFO:shap:num_paired_subset_sizes = 10
+INFO:shap:weight_left = np.float64(0.554544872149051)
+INFO:shap:np.sum(w_aug) = np.float64(21.0)
+INFO:shap:np.sum(self.kernelWeights) = np.float64(1.0)
+INFO:shap:phi = array([-1144.91020062,     0.        ,     0.        ,   -28.51538148,
+          33.39867835,     0.        ,     0.        ,     0.        ,
+           0.        ,     0.        ,   211.21542821,   -11.99018718,
+         -33.04699007,     0.        ,     0.        ,   -33.25785822,
+          26.91859471,     0.        ,     0.        ,   -20.15691389,
+          -9.14103386])
+INFO:shap:num_full_subsets = 2
+INFO:shap:remaining_weight_vector = array([0.19492121, 0.15479038, 0.13157182, 0.11695273, 0.10740557,
+       0.10120909, 0.09746061, 0.0956886 ])
+INFO:shap:num_paired_subset_sizes = 10
+INFO:shap:weight_left = np.float64(0.554544872149051)
+INFO:shap:np.sum(w_aug) = np.float64(21.0)
+INFO:shap:np.sum(self.kernelWeights) = np.float64(1.0000000000000002)
+INFO:shap:phi = array([3580.75127574,    0.        ,    0.        ,    0.        ,
+         68.90885586,   31.8603119 ,    0.        ,    0.        ,
+          0.        ,    0.        ,  483.26290355,  986.40972793,
+        828.56810138,   76.144822  ,    0.        ,    0.        ,
+         74.48526554,   49.65283799,  144.4188926 ,    0.        ,
+          0.        ])
+INFO:shap:num_full_subsets = 2
+INFO:shap:remaining_weight_vector = array([0.19492121, 0.15479038, 0.13157182, 0.11695273, 0.10740557,
+       0.10120909, 0.09746061, 0.0956886 ])
+INFO:shap:num_paired_subset_sizes = 10
+INFO:shap:weight_left = np.float64(0.554544872149051)
+INFO:shap:np.sum(w_aug) = np.float64(21.0)
+INFO:shap:np.sum(self.kernelWeights) = np.float64(1.0)
+INFO:shap:phi = array([6.73913455e+03, 0.00000000e+00, 0.00000000e+00, 0.00000000e+00,
+       0.00000000e+00, 7.34019124e+01, 1.68990535e+01, 0.00000000e+00,
+       4.31761790e+01, 0.00000000e+00, 0.00000000e+00, 3.37263767e+03,
+       2.83654989e+03, 0.00000000e+00, 1.65614406e+02, 0.00000000e+00,
+       9.76997834e+01, 1.64554416e+02, 0.00000000e+00, 0.00000000e+00,
+       5.97706634e+00])
+INFO:shap:num_full_subsets = 2
+INFO:shap:remaining_weight_vector = array([0.19492121, 0.15479038, 0.13157182, 0.11695273, 0.10740557,
+       0.10120909, 0.09746061, 0.0956886 ])
+INFO:shap:num_paired_subset_sizes = 10
+INFO:shap:weight_left = np.float64(0.554544872149051)
+INFO:shap:np.sum(w_aug) = np.float64(21.0)
+INFO:shap:np.sum(self.kernelWeights) = np.float64(1.0)
+INFO:shap:phi = array([ -189.99731299,     0.        ,   -18.44471372,     0.        ,
+           0.        ,     0.        ,     0.        ,     0.        ,
+           0.        ,     0.        ,  -534.70650037, -1272.26085303,
+       -1301.05339268,     0.        ,   -49.62535153,    97.38770547,
+         -71.6439482 ,     0.        ,   -17.46481593,     0.        ,
+         -94.86367852])
+INFO:shap:num_full_subsets = 2
+INFO:shap:remaining_weight_vector = array([0.19492121, 0.15479038, 0.13157182, 0.11695273, 0.10740557,
+       0.10120909, 0.09746061, 0.0956886 ])
+INFO:shap:num_paired_subset_sizes = 10
+INFO:shap:weight_left = np.float64(0.554544872149051)
+INFO:shap:np.sum(w_aug) = np.float64(21.0)
+INFO:shap:np.sum(self.kernelWeights) = np.float64(1.0)
+INFO:shap:phi = array([-137.35537306,   23.21259586,    0.        ,   35.7044235 ,
+          0.        ,   43.79854523,    0.        ,   18.10205432,
+          0.        ,   16.08307236,  472.83860251,  347.13757994,
+        396.6146667 ,    0.        ,    0.        ,    0.        ,
+          0.        ,    0.        ,   42.96548172,    0.        ,
+          0.        ])
+INFO:shap:num_full_subsets = 2
+INFO:shap:remaining_weight_vector = array([0.19492121, 0.15479038, 0.13157182, 0.11695273, 0.10740557,
+       0.10120909, 0.09746061, 0.0956886 ])
+INFO:shap:num_paired_subset_sizes = 10
+INFO:shap:weight_left = np.float64(0.554544872149051)
+INFO:shap:np.sum(w_aug) = np.float64(21.0)
+INFO:shap:np.sum(self.kernelWeights) = np.float64(1.0)
+INFO:shap:phi = array([-832.10392417,    0.        ,    0.        ,   52.42901668,
+        -61.76203207,    0.        ,    0.        ,   17.60767315,
+          0.        ,    0.        ,  385.7712247 ,  267.2694059 ,
+        222.26442366,   19.56627277,    0.        ,  113.3719928 ,
+          0.        ,    0.        , -130.22436038,    0.        ,
+          0.        ])
+INFO:shap:num_full_subsets = 2
+INFO:shap:remaining_weight_vector = array([0.19492121, 0.15479038, 0.13157182, 0.11695273, 0.10740557,
+       0.10120909, 0.09746061, 0.0956886 ])
+INFO:shap:num_paired_subset_sizes = 10
+INFO:shap:weight_left = np.float64(0.554544872149051)
+INFO:shap:np.sum(w_aug) = np.float64(21.0)
+INFO:shap:np.sum(self.kernelWeights) = np.float64(1.0)
+INFO:shap:phi = array([-725.26258766,    0.        ,    0.        ,   47.89817702,
+          0.        ,    0.        ,    0.        ,    7.77901919,
+          0.        ,    0.        ,  234.14049338,   68.36186195,
+         29.5662992 ,    0.        ,    0.        ,   28.01893685,
+         29.22128042,    0.        ,  -42.64896848,  -20.49744023,
+          0.        ])
+INFO:shap:num_full_subsets = 2
+INFO:shap:remaining_weight_vector = array([0.19492121, 0.15479038, 0.13157182, 0.11695273, 0.10740557,
+       0.10120909, 0.09746061, 0.0956886 ])
+INFO:shap:num_paired_subset_sizes = 10
+INFO:shap:weight_left = np.float64(0.554544872149051)
+INFO:shap:np.sum(w_aug) = np.float64(20.999999999999996)
+INFO:shap:np.sum(self.kernelWeights) = np.float64(1.0)
+INFO:shap:phi = array([-1309.3149267 ,     0.        ,     0.        ,    75.60813468,
+          39.95748552,     0.        ,     0.        ,    43.94130466,
+           0.        ,   -33.08286636,   108.59502679,  -478.07464082,
+        -459.26288065,     0.        ,   -31.67522735,     0.        ,
+           0.        ,     0.        ,   -34.81212983,     0.        ,
+           0.        ])
+INFO:shap:num_full_subsets = 2
+INFO:shap:remaining_weight_vector = array([0.19492121, 0.15479038, 0.13157182, 0.11695273, 0.10740557,
+       0.10120909, 0.09746061, 0.0956886 ])
+INFO:shap:num_paired_subset_sizes = 10
+INFO:shap:weight_left = np.float64(0.554544872149051)
+INFO:shap:np.sum(w_aug) = np.float64(21.0)
+INFO:shap:np.sum(self.kernelWeights) = np.float64(1.0000000000000002)
+INFO:shap:phi = array([-937.81528085,    0.        ,    0.        ,    0.        ,
+        -59.27320186,    0.        ,    0.        ,    0.        ,
+          0.        ,    0.        ,  465.56688272,  422.20604538,
+        397.33443409,   48.43620175,   24.74018659,   71.86547836,
+          0.        ,   23.10967191, -123.24223506,    0.        ,
+          0.        ])
+INFO:shap:num_full_subsets = 2
+INFO:shap:remaining_weight_vector = array([0.19492121, 0.15479038, 0.13157182, 0.11695273, 0.10740557,
+       0.10120909, 0.09746061, 0.0956886 ])
+INFO:shap:num_paired_subset_sizes = 10
+INFO:shap:weight_left = np.float64(0.554544872149051)
+INFO:shap:np.sum(w_aug) = np.float64(20.999999999999996)
+INFO:shap:np.sum(self.kernelWeights) = np.float64(1.0)
+INFO:shap:phi = array([-970.21462151,   21.08049322,    0.        ,    0.        ,
+          0.        ,    0.        ,   10.35936674,    0.        ,
+          0.        ,    0.        ,  412.99553914,  337.50973626,
+        260.70135611,    0.        ,   11.30521742,   97.77142202,
+          0.        ,   28.72312489, -158.54143178,    0.        ,
+          0.        ])
+INFO:shap:num_full_subsets = 2
+INFO:shap:remaining_weight_vector = array([0.19492121, 0.15479038, 0.13157182, 0.11695273, 0.10740557,
+       0.10120909, 0.09746061, 0.0956886 ])
+INFO:shap:num_paired_subset_sizes = 10
+INFO:shap:weight_left = np.float64(0.554544872149051)
+INFO:shap:np.sum(w_aug) = np.float64(21.0)
+INFO:shap:np.sum(self.kernelWeights) = np.float64(1.0)
+INFO:shap:phi = array([-1491.08770799,     0.        ,     0.        ,   -69.42893942,
+         -27.96269671,     0.        ,    49.45898077,     0.        ,
+           0.        ,     0.        ,    68.60652614,  -548.22007729,
+        -559.4195923 ,     0.        ,     0.        ,    41.38523248,
+           0.        ,     0.        ,   -44.35164129,   -18.20494425,
+           0.        ])
+INFO:shap:num_full_subsets = 2
+INFO:shap:remaining_weight_vector = array([0.19492121, 0.15479038, 0.13157182, 0.11695273, 0.10740557,
+       0.10120909, 0.09746061, 0.0956886 ])
+INFO:shap:num_paired_subset_sizes = 10
+INFO:shap:weight_left = np.float64(0.554544872149051)
+INFO:shap:np.sum(w_aug) = np.float64(20.999999999999996)
+INFO:shap:np.sum(self.kernelWeights) = np.float64(1.0)
+INFO:shap:phi = array([-1949.25340116,     0.        ,     0.        ,   -41.57269667,
+           0.        ,   -31.18472881,     0.        ,     0.        ,
+           0.        ,     0.        ,   250.67913718,    34.302316  ,
+         -79.22009363,     0.        ,     0.        ,   110.57420136,
+          12.93248454,     0.        ,  -335.14025078,    12.7425035 ,
+           0.        ])
+INFO:shap:num_full_subsets = 2
+INFO:shap:remaining_weight_vector = array([0.19492121, 0.15479038, 0.13157182, 0.11695273, 0.10740557,
+       0.10120909, 0.09746061, 0.0956886 ])
+INFO:shap:num_paired_subset_sizes = 10
+INFO:shap:weight_left = np.float64(0.554544872149051)
+INFO:shap:np.sum(w_aug) = np.float64(21.0)
+INFO:shap:np.sum(self.kernelWeights) = np.float64(1.0)
+INFO:shap:phi = array([ -498.46267096,   -26.02991981,     0.        ,   -17.8714825 ,
+         -70.06633641,   -43.63124318,     0.        ,     0.        ,
+           0.        ,     0.        ,  -368.60167343, -1145.82036972,
+       -1126.33065245,     0.        ,   -41.79069778,     0.        ,
+           0.        ,     0.        ,   -65.65816731,     0.        ,
+           0.        ])
+INFO:shap:num_full_subsets = 2
+INFO:shap:remaining_weight_vector = array([0.19492121, 0.15479038, 0.13157182, 0.11695273, 0.10740557,
+       0.10120909, 0.09746061, 0.0956886 ])
+INFO:shap:num_paired_subset_sizes = 10
+INFO:shap:weight_left = np.float64(0.554544872149051)
+INFO:shap:np.sum(w_aug) = np.float64(21.0)
+INFO:shap:np.sum(self.kernelWeights) = np.float64(1.0000000000000002)
+INFO:shap:phi = array([-1305.29364213,     0.        ,     0.        ,     0.        ,
+           0.        ,     0.        ,     0.        ,     0.        ,
+           0.        ,   -13.25292816,   150.2827701 ,  -447.72588463,
+        -503.98886821,     0.        ,     0.        ,   -35.83664228,
+          59.09707663,   -37.80582909,   -19.77049541,    49.3688647 ,
+           0.        ])
+INFO:shap:num_full_subsets = 2
+INFO:shap:remaining_weight_vector = array([0.19492121, 0.15479038, 0.13157182, 0.11695273, 0.10740557,
+       0.10120909, 0.09746061, 0.0956886 ])
+INFO:shap:num_paired_subset_sizes = 10
+INFO:shap:weight_left = np.float64(0.554544872149051)
+INFO:shap:np.sum(w_aug) = np.float64(21.0)
+INFO:shap:np.sum(self.kernelWeights) = np.float64(1.0)
+INFO:shap:phi = array([-1374.80584556,     0.        ,     0.        ,     0.        ,
+           0.        ,     0.        ,     0.        ,     0.        ,
+          18.3235025 ,     0.        ,   323.4407691 ,   147.16494097,
+         141.20972056,     0.        ,   -17.96760221,    81.30283307,
+           0.        ,     0.        ,  -116.09703073,    10.57965566,
+          21.64564137])
+INFO:shap:num_full_subsets = 2
+INFO:shap:remaining_weight_vector = array([0.19492121, 0.15479038, 0.13157182, 0.11695273, 0.10740557,
+       0.10120909, 0.09746061, 0.0956886 ])
+INFO:shap:num_paired_subset_sizes = 10
+INFO:shap:weight_left = np.float64(0.554544872149051)
+INFO:shap:np.sum(w_aug) = np.float64(21.0)
+INFO:shap:np.sum(self.kernelWeights) = np.float64(1.0000000000000004)
+INFO:shap:phi = array([-1209.32901365,     0.        ,     0.        ,    50.36501949,
+           0.        ,     0.        ,    33.42080829,     0.        ,
+           0.        ,     0.        ,  -425.8454162 ,  -905.53635238,
+        -919.51201638,     0.        ,   -17.11156484,   226.62977147,
+           0.        ,   -25.27368585,  -285.40581885,     0.        ,
+           0.        ])
+INFO:shap:num_full_subsets = 2
+INFO:shap:remaining_weight_vector = array([0.19492121, 0.15479038, 0.13157182, 0.11695273, 0.10740557,
+       0.10120909, 0.09746061, 0.0956886 ])
+INFO:shap:num_paired_subset_sizes = 10
+INFO:shap:weight_left = np.float64(0.554544872149051)
+INFO:shap:np.sum(w_aug) = np.float64(21.0)
+INFO:shap:np.sum(self.kernelWeights) = np.float64(1.0)
+INFO:shap:phi = array([-1178.9309766 ,     0.        ,   -34.45427921,   -20.95329814,
+          53.49732577,     0.        ,     0.        ,     0.        ,
+           0.        ,   -21.16985476,     0.        ,  -580.65541184,
+        -667.0610347 ,     0.        ,     0.        ,     0.        ,
+          42.52121297,   -32.77558238,     0.        ,    73.71683305,
+           0.        ])
+INFO:shap:num_full_subsets = 2
+INFO:shap:remaining_weight_vector = array([0.19492121, 0.15479038, 0.13157182, 0.11695273, 0.10740557,
+       0.10120909, 0.09746061, 0.0956886 ])
+INFO:shap:num_paired_subset_sizes = 10
+INFO:shap:weight_left = np.float64(0.554544872149051)
+INFO:shap:np.sum(w_aug) = np.float64(21.0)
+INFO:shap:np.sum(self.kernelWeights) = np.float64(1.0)
+INFO:shap:phi = array([3777.69063193,    0.        ,    0.        ,    0.        ,
+          0.        ,    0.        ,   32.35521138,    0.        ,
+          0.        ,    0.        ,   52.5451413 , 1726.7036619 ,
+       1490.62128494,  142.10476601,   50.68580288,    0.        ,
+         59.76019213,    0.        ,  118.76932968,    0.        ,
+         44.43318806])
+INFO:shap:num_full_subsets = 2
+INFO:shap:remaining_weight_vector = array([0.19492121, 0.15479038, 0.13157182, 0.11695273, 0.10740557,
+       0.10120909, 0.09746061, 0.0956886 ])
+INFO:shap:num_paired_subset_sizes = 10
+INFO:shap:weight_left = np.float64(0.554544872149051)
+INFO:shap:np.sum(w_aug) = np.float64(21.0)
+INFO:shap:np.sum(self.kernelWeights) = np.float64(1.0000000000000002)
+INFO:shap:phi = array([2681.42903909,   30.38304368,    0.        ,    0.        ,
+          0.        ,    0.        ,   17.41315151,    0.        ,
+          0.        ,    0.        ,  132.54379817, 1620.89417368,
+       1500.41336944,    0.        ,   46.60904379,    0.        ,
+         94.73858006,   70.02425779, -103.40563912,    0.        ,
+          0.        ])
+INFO:shap:num_full_subsets = 2
+INFO:shap:remaining_weight_vector = array([0.19492121, 0.15479038, 0.13157182, 0.11695273, 0.10740557,
+       0.10120909, 0.09746061, 0.0956886 ])
+INFO:shap:num_paired_subset_sizes = 10
+INFO:shap:weight_left = np.float64(0.554544872149051)
+INFO:shap:np.sum(w_aug) = np.float64(21.0)
+INFO:shap:np.sum(self.kernelWeights) = np.float64(1.0000000000000002)
+INFO:shap:phi = array([-1288.92192096,     0.        ,     0.        ,     0.        ,
+         -51.23034287,   -12.48231044,   -13.48713487,     0.        ,
+           0.        ,   -26.01521894,   -29.45074963,  -790.68025797,
+        -777.69336323,     0.        ,     0.        ,     0.        ,
+           0.        ,     0.        ,     0.        ,   -11.50842692,
+         -42.96363064])
+INFO:shap:num_full_subsets = 2
+INFO:shap:remaining_weight_vector = array([0.19492121, 0.15479038, 0.13157182, 0.11695273, 0.10740557,
+       0.10120909, 0.09746061, 0.0956886 ])
+INFO:shap:num_paired_subset_sizes = 10
+INFO:shap:weight_left = np.float64(0.554544872149051)
+INFO:shap:np.sum(w_aug) = np.float64(20.999999999999996)
+INFO:shap:np.sum(self.kernelWeights) = np.float64(1.0000000000000004)
+INFO:shap:phi = array([-1515.6723143 ,     0.        ,     0.        ,    32.06338385,
+         -32.1028489 ,     0.        ,     0.        ,     0.        ,
+           0.        ,     0.        ,   196.25392824,   -39.34195476,
+         -54.71897124,     0.        ,    -9.24189638,   -31.45245728,
+          24.36302192,     0.        ,    12.66700457,     0.        ,
+           0.        ])
+INFO:shap:num_full_subsets = 2
+INFO:shap:remaining_weight_vector = array([0.19492121, 0.15479038, 0.13157182, 0.11695273, 0.10740557,
+       0.10120909, 0.09746061, 0.0956886 ])
+INFO:shap:num_paired_subset_sizes = 10
+INFO:shap:weight_left = np.float64(0.554544872149051)
+INFO:shap:np.sum(w_aug) = np.float64(21.0)
+INFO:shap:np.sum(self.kernelWeights) = np.float64(1.0)
+INFO:shap:phi = array([-1989.23268031,     0.        ,   -25.4767012 ,     0.        ,
+         -26.7715582 ,     0.        ,     0.        ,     0.        ,
+           0.        ,     0.        ,   373.97092699,   231.99253283,
+         166.084832  ,    41.92176565,     0.        ,   499.46674263,
+           0.        ,     0.        ,  -516.16419626,   -35.61990334,
+           0.        ])
+INFO:shap:num_full_subsets = 2
+INFO:shap:remaining_weight_vector = array([0.19492121, 0.15479038, 0.13157182, 0.11695273, 0.10740557,
+       0.10120909, 0.09746061, 0.0956886 ])
+INFO:shap:num_paired_subset_sizes = 10
+INFO:shap:weight_left = np.float64(0.554544872149051)
+INFO:shap:np.sum(w_aug) = np.float64(20.999999999999996)
+INFO:shap:np.sum(self.kernelWeights) = np.float64(1.0)
+INFO:shap:phi = array([ -684.15078619,     0.        ,     0.        ,     0.        ,
+           0.        ,     0.        ,     0.        ,     0.        ,
+          -5.19029445,     0.        ,  -293.19369686, -1105.81750252,
+       -1078.42789041,     0.        ,   -27.49747406,     0.        ,
+         -45.64379162,   -30.040208  ,   -11.84875444,     0.        ,
+         -25.39998711])
+INFO:shap:num_full_subsets = 2
+INFO:shap:remaining_weight_vector = array([0.19492121, 0.15479038, 0.13157182, 0.11695273, 0.10740557,
+       0.10120909, 0.09746061, 0.0956886 ])
+INFO:shap:num_paired_subset_sizes = 10
+INFO:shap:weight_left = np.float64(0.554544872149051)
+INFO:shap:np.sum(w_aug) = np.float64(21.0)
+INFO:shap:np.sum(self.kernelWeights) = np.float64(1.0)
+INFO:shap:phi = array([  905.13445764,     0.        ,     0.        ,   100.66386539,
+         -55.84526785,     0.        ,     0.        ,     0.        ,
+           0.        ,     0.        , -1005.45049544, -1727.70126578,
+       -1581.91070152,     0.        ,   -77.403084  ,   144.66671912,
+           0.        ,     0.        ,   -40.64665292,     0.        ,
+         -46.60044756])
+INFO:shap:num_full_subsets = 2
+INFO:shap:remaining_weight_vector = array([0.19492121, 0.15479038, 0.13157182, 0.11695273, 0.10740557,
+       0.10120909, 0.09746061, 0.0956886 ])
+INFO:shap:num_paired_subset_sizes = 10
+INFO:shap:weight_left = np.float64(0.554544872149051)
+INFO:shap:np.sum(w_aug) = np.float64(21.0)
+INFO:shap:np.sum(self.kernelWeights) = np.float64(1.0)
+INFO:shap:phi = array([  165.60552283,     0.        ,     0.        ,     0.        ,
+         -47.73452903,     0.        ,     0.        ,     0.        ,
+           0.        ,     0.        ,  -691.26027637, -1303.30328609,
+       -1336.82253867,     0.        ,   -31.38440279,     0.        ,
+         -63.59707553,   -43.62421827,   -70.61674794,     0.        ,
+         -23.8401117 ])
+INFO:shap:num_full_subsets = 2
+INFO:shap:remaining_weight_vector = array([0.19492121, 0.15479038, 0.13157182, 0.11695273, 0.10740557,
+       0.10120909, 0.09746061, 0.0956886 ])
+INFO:shap:num_paired_subset_sizes = 10
+INFO:shap:weight_left = np.float64(0.554544872149051)
+INFO:shap:np.sum(w_aug) = np.float64(21.0)
+INFO:shap:np.sum(self.kernelWeights) = np.float64(1.0)
+INFO:shap:phi = array([-1537.37850277,     0.        ,     0.        ,   -59.80348138,
+           0.        ,     0.        ,     0.        ,     0.        ,
+           0.        ,     0.        ,   195.47212047,  -250.23751582,
+        -243.81493976,     0.        ,   -10.55341107,   -41.81059249,
+           0.        ,     0.        ,   118.59605456,   -22.82024592,
+         -12.23454858])
+INFO:shap:num_full_subsets = 2
+INFO:shap:remaining_weight_vector = array([0.19492121, 0.15479038, 0.13157182, 0.11695273, 0.10740557,
+       0.10120909, 0.09746061, 0.0956886 ])
+INFO:shap:num_paired_subset_sizes = 10
+INFO:shap:weight_left = np.float64(0.554544872149051)
+INFO:shap:np.sum(w_aug) = np.float64(20.999999999999996)
+INFO:shap:np.sum(self.kernelWeights) = np.float64(1.0000000000000002)
+INFO:shap:phi = array([ -105.36585577,     0.        ,    44.88687042,    96.69005972,
+           0.        ,     0.        ,     0.        ,     0.        ,
+         113.99071913,   -31.31964303,  -625.86777978, -1404.35281374,
+       -1357.52617185,     0.        ,   -32.28669833,     0.        ,
+        -115.82036037,     0.        ,     0.        ,     0.        ,
+           0.        ])
+INFO:shap:num_full_subsets = 2
+INFO:shap:remaining_weight_vector = array([0.19492121, 0.15479038, 0.13157182, 0.11695273, 0.10740557,
+       0.10120909, 0.09746061, 0.0956886 ])
+INFO:shap:num_paired_subset_sizes = 10
+INFO:shap:weight_left = np.float64(0.554544872149051)
+INFO:shap:np.sum(w_aug) = np.float64(21.0)
+INFO:shap:np.sum(self.kernelWeights) = np.float64(1.0)
+INFO:shap:phi = array([6789.1703061 ,    0.        ,   88.27895904,    0.        ,
+          0.        ,    0.        ,  147.121774  ,    0.        ,
+       -213.53610453,    0.        , -343.46004514, 3854.07096769,
+       3173.37207037,    0.        ,  210.60551265,    0.        ,
+          0.        ,  158.63902692,    0.        ,    0.        ,
+         97.0746167 ])
+INFO:shap:num_full_subsets = 2
+INFO:shap:remaining_weight_vector = array([0.19492121, 0.15479038, 0.13157182, 0.11695273, 0.10740557,
+       0.10120909, 0.09746061, 0.0956886 ])
+INFO:shap:num_paired_subset_sizes = 10
+INFO:shap:weight_left = np.float64(0.554544872149051)
+INFO:shap:np.sum(w_aug) = np.float64(21.0)
+INFO:shap:np.sum(self.kernelWeights) = np.float64(1.0000000000000002)
+INFO:shap:phi = array([ -385.16940233,     0.        ,     0.        ,   -26.6717732 ,
+           0.        ,     0.        ,     0.        ,     0.        ,
+           0.        ,     0.        ,  -360.83135414, -1201.87221043,
+       -1170.31476855,     0.        ,     0.        ,   -99.3623502 ,
+         -44.72263695,   -44.9696735 ,   -42.15278548,     0.        ,
+         -34.68931594])
+INFO:shap:num_full_subsets = 2
+INFO:shap:remaining_weight_vector = array([0.19492121, 0.15479038, 0.13157182, 0.11695273, 0.10740557,
+       0.10120909, 0.09746061, 0.0956886 ])
+INFO:shap:num_paired_subset_sizes = 10
+INFO:shap:weight_left = np.float64(0.554544872149051)
+INFO:shap:np.sum(w_aug) = np.float64(21.0)
+INFO:shap:np.sum(self.kernelWeights) = np.float64(1.0)
+INFO:shap:phi = array([-1036.80691044,     0.        ,     0.        ,     0.        ,
+         -46.36314864,     0.        ,     0.        ,     0.        ,
+           0.        ,     0.        ,   205.60276076,     0.        ,
+         -33.02704832,    11.91666977,     0.        ,    79.78729938,
+          24.13088859,     0.        ,   -90.09587252,   -19.06473987,
+         -17.05828425])
+INFO:shap:num_full_subsets = 2
+INFO:shap:remaining_weight_vector = array([0.19492121, 0.15479038, 0.13157182, 0.11695273, 0.10740557,
+       0.10120909, 0.09746061, 0.0956886 ])
+INFO:shap:num_paired_subset_sizes = 10
+INFO:shap:weight_left = np.float64(0.554544872149051)
+INFO:shap:np.sum(w_aug) = np.float64(21.0)
+INFO:shap:np.sum(self.kernelWeights) = np.float64(1.0)
+INFO:shap:phi = array([ -691.75643442,     0.        ,   -29.75048408,   132.77993272,
+           0.        ,     0.        ,     0.        ,     0.        ,
+           0.        ,     0.        ,  -402.39347362, -1216.0816616 ,
+       -1154.66698461,     0.        ,   -68.28960813,   182.02245482,
+           0.        ,     0.        ,  -122.92230156,   -45.81231868,
+           0.        ])
+INFO:shap:num_full_subsets = 2
+INFO:shap:remaining_weight_vector = array([0.19492121, 0.15479038, 0.13157182, 0.11695273, 0.10740557,
+       0.10120909, 0.09746061, 0.0956886 ])
+INFO:shap:num_paired_subset_sizes = 10
+INFO:shap:weight_left = np.float64(0.554544872149051)
+INFO:shap:np.sum(w_aug) = np.float64(21.0)
+INFO:shap:np.sum(self.kernelWeights) = np.float64(1.0000000000000002)
+INFO:shap:phi = array([-1585.74209748,     0.        ,     0.        ,    84.93928677,
+         -14.95434349,     0.        ,     0.        ,     0.        ,
+           0.        ,     0.        ,   170.9007425 ,  -262.74959153,
+        -252.27511459,     0.        ,   -16.42674606,     0.        ,
+           0.        ,   -21.32573602,  -107.56463532,   -45.21009603,
+           0.        ])
+INFO:shap:num_full_subsets = 2
+INFO:shap:remaining_weight_vector = array([0.19492121, 0.15479038, 0.13157182, 0.11695273, 0.10740557,
+       0.10120909, 0.09746061, 0.0956886 ])
+INFO:shap:num_paired_subset_sizes = 10
+INFO:shap:weight_left = np.float64(0.554544872149051)
+INFO:shap:np.sum(w_aug) = np.float64(20.999999999999996)
+INFO:shap:np.sum(self.kernelWeights) = np.float64(1.0)
+INFO:shap:phi = array([-1032.17908226,     0.        ,     0.        ,     0.        ,
+         -24.34794768,   -11.01133647,     0.        ,     0.        ,
+           0.        ,     0.        ,  -234.0684643 , -1046.63805939,
+       -1015.61614571,     0.        ,   -14.72331926,   -27.16675193,
+         -11.83715806,   -79.3995088 ,     0.        ,     0.        ,
+           0.        ])
+INFO:shap:num_full_subsets = 2
+INFO:shap:remaining_weight_vector = array([0.19492121, 0.15479038, 0.13157182, 0.11695273, 0.10740557,
+       0.10120909, 0.09746061, 0.0956886 ])
+INFO:shap:num_paired_subset_sizes = 10
+INFO:shap:weight_left = np.float64(0.554544872149051)
+INFO:shap:np.sum(w_aug) = np.float64(21.0)
+INFO:shap:np.sum(self.kernelWeights) = np.float64(1.0)
+INFO:shap:phi = array([ 1114.08099149,     0.        ,     0.        ,     0.        ,
+           0.        ,     0.        ,   -59.51401549,    88.42736091,
+           0.        ,     0.        ,  -978.93451109, -1845.0815188 ,
+       -1744.5718081 ,     0.        ,   -85.94677462,    89.15960012,
+           0.        ,   -40.92161621,   -66.42921976,     0.        ,
+           0.        ])
+INFO:shap:num_full_subsets = 2
+INFO:shap:remaining_weight_vector = array([0.19492121, 0.15479038, 0.13157182, 0.11695273, 0.10740557,
+       0.10120909, 0.09746061, 0.0956886 ])
+INFO:shap:num_paired_subset_sizes = 10
+INFO:shap:weight_left = np.float64(0.554544872149051)
+INFO:shap:np.sum(w_aug) = np.float64(21.0)
+INFO:shap:np.sum(self.kernelWeights) = np.float64(1.0)
+INFO:shap:phi = array([379.59740907,   0.        ,   0.        ,  11.70166483,
+         0.        ,   5.83726561,   7.85077699,   0.        ,
+         0.        ,   0.        , 454.78639724, 485.29929145,
+       336.86418601,  42.50980097,   9.4816259 ,   0.        ,
+        33.48206798,   0.        ,   0.        ,   0.        ,
+         0.        ])
+INFO:shap:num_full_subsets = 2
+INFO:shap:remaining_weight_vector = array([0.19492121, 0.15479038, 0.13157182, 0.11695273, 0.10740557,
+       0.10120909, 0.09746061, 0.0956886 ])
+INFO:shap:num_paired_subset_sizes = 10
+INFO:shap:weight_left = np.float64(0.554544872149051)
+INFO:shap:np.sum(w_aug) = np.float64(21.0)
+INFO:shap:np.sum(self.kernelWeights) = np.float64(1.0)
+INFO:shap:phi = array([-1494.27533599,     0.        ,     0.        ,   -37.78513599,
+           0.        ,   -37.83648792,     0.        ,     0.        ,
+          30.63154892,     0.        ,     0.        ,  -585.80112954,
+        -639.32426387,     0.        ,     0.        ,   -45.00193431,
+          33.14254687,     0.        ,     0.        ,    64.75222349,
+         -29.05699117])
+INFO:shap:num_full_subsets = 2
+INFO:shap:remaining_weight_vector = array([0.19492121, 0.15479038, 0.13157182, 0.11695273, 0.10740557,
+       0.10120909, 0.09746061, 0.0956886 ])
+INFO:shap:num_paired_subset_sizes = 10
+INFO:shap:weight_left = np.float64(0.554544872149051)
+INFO:shap:np.sum(w_aug) = np.float64(21.0)
+INFO:shap:np.sum(self.kernelWeights) = np.float64(1.0000000000000002)
+INFO:shap:phi = array([    0.        ,     0.        ,     0.        ,   -68.69443874,
+           0.        ,     0.        ,   -24.37413693,     0.        ,
+           0.        ,     0.        ,  -448.04050588, -1661.80076897,
+       -1435.11978974,     0.        ,   -42.95860064,  -253.50769775,
+        -104.74560003,     0.        ,   379.69515371,     0.        ,
+         -32.29313579])
+INFO:shap:num_full_subsets = 2
+INFO:shap:remaining_weight_vector = array([0.19492121, 0.15479038, 0.13157182, 0.11695273, 0.10740557,
+       0.10120909, 0.09746061, 0.0956886 ])
+INFO:shap:num_paired_subset_sizes = 10
+INFO:shap:weight_left = np.float64(0.554544872149051)
+INFO:shap:np.sum(w_aug) = np.float64(21.0)
+INFO:shap:np.sum(self.kernelWeights) = np.float64(1.0)
+INFO:shap:phi = array([-428.49015888,    0.        ,    0.        ,  -43.79305281,
+          0.        ,    0.        ,    0.        ,    0.        ,
+          0.        ,    0.        ,  439.16301097,  366.06826541,
+        282.31530458,    0.        ,    0.        ,   84.48910449,
+         55.03406933,    0.        ,  -83.35240457,  -83.79269967,
+         35.15956908])
+INFO:shap:num_full_subsets = 2
+INFO:shap:remaining_weight_vector = array([0.19492121, 0.15479038, 0.13157182, 0.11695273, 0.10740557,
+       0.10120909, 0.09746061, 0.0956886 ])
+INFO:shap:num_paired_subset_sizes = 10
+INFO:shap:weight_left = np.float64(0.554544872149051)
+INFO:shap:np.sum(w_aug) = np.float64(20.999999999999996)
+INFO:shap:np.sum(self.kernelWeights) = np.float64(1.0000000000000002)
+INFO:shap:phi = array([-2186.77985114,     0.        ,     0.        ,     0.        ,
+         -51.65038237,     0.        ,   -30.43952304,     0.        ,
+           0.        ,     0.        ,   559.99553284,   494.68244491,
+         522.47167288,     0.        ,     0.        ,   -46.80414655,
+           0.        ,     0.        ,    51.85231742,    63.45590164,
+          67.04469922])
+ERROR:root:Prediction failed: DataFrame.dtypes for data must be int, float, bool or category. When categorical type is supplied, the experimental DMatrix parameter`enable_categorical` must be set to `True`.  Invalid columns:cut: object, color: object, clarity: object
+INFO:root:Started model training
+INFO:root:Handled missing values using median
+INFO:root:Encoded categorical features
+INFO:root:Added feature: volume, carat_depth, polynomial features
+WARNING:root:Overfitting observed, applying regularization
+INFO:root:Model training completed successfully
+ERROR:root:Prediction failed: DataFrame.dtypes for data must be int, float, bool or category. When categorical type is supplied, the experimental DMatrix parameter`enable_categorical` must be set to `True`.  Invalid columns:cut: object, color: object, clarity: object
+INFO:root:Started model training
+INFO:root:Handled missing values using median
+INFO:root:Encoded categorical features
+INFO:root:Added feature: volume, carat_depth, polynomial features
+WARNING:root:Overfitting observed, applying regularization
+INFO:root:Model training completed successfully
+ERROR:root:Prediction failed: name 'input_data' is not defined
