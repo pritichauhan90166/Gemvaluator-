@@ -69,7 +69,7 @@ results_df = results_df.sort_values(by="RMSE")
 # =========================
 with st.sidebar:
     st.title("💎 GemValuator")
-    page = st.radio("", ["Dashboard", "EDA", "Prediction", "Visualization", "Model Comparison","Model Logs"], label_visibility="collapsed")
+    page = st.radio("", ["Dashboard", "EDA", "Prediction","Bulk Scanner", "Visualization", "Model Comparison","Model Logs"], label_visibility="collapsed")
 
 # =========================
 # HEADER
@@ -127,7 +127,7 @@ if page == "Dashboard":
     col3.plotly_chart(fig_clarity, use_container_width=True)
     col4.plotly_chart(fig_avg_cut, use_container_width=True)
 
-    # =========================
+# =========================
 # EDA PAGE
 # =========================
 elif page == "EDA":
@@ -218,7 +218,7 @@ elif page == "EDA":
         fig6 = px.box(filtered_df, y=feature, color_discrete_sequence=["#0f3460"])
         col2.plotly_chart(fig6, use_container_width=True)
 
-    # =========================
+       # =========================
     # TAB 3: RELATIONSHIPS
     # =========================
     with tab3:
@@ -238,8 +238,15 @@ elif page == "EDA":
 
         col1, col2 = st.columns(2)
 
-        x_axis = col1.selectbox("X-axis", filtered_df.columns, index=0)
-        y_axis = col2.selectbox("Y-axis", filtered_df.columns, index=6)
+        # Only numeric columns
+        numeric_cols = filtered_df.select_dtypes(include=np.number).columns.tolist()
+
+        # Smart defaults
+        default_x = "carat" if "carat" in numeric_cols else numeric_cols[0]
+        default_y = "price" if "price" in numeric_cols else numeric_cols[1]
+
+        x_axis = col1.selectbox("X-axis", numeric_cols, index=numeric_cols.index(default_x))
+        y_axis = col2.selectbox("Y-axis", numeric_cols, index=numeric_cols.index(default_y))
 
         fig8 = px.scatter(
             filtered_df,
@@ -329,6 +336,80 @@ elif page == "Prediction":
 
         except Exception as e:
             st.error(f"Prediction error: {e}")
+
+# =========================
+# BULK SCANNER PAGE
+# =========================
+elif page == "Bulk Scanner":
+
+    st.title("📂 Bulk Diamond Price Prediction")
+
+    uploaded_file = st.file_uploader(
+        "Upload CSV / Excel / JSON file",
+        type=["csv", "xlsx", "json"]
+    )
+
+    if uploaded_file is not None:
+
+        try:
+            # =========================
+            # READ FILE
+            # =========================
+            if uploaded_file.name.endswith(".csv"):
+                bulk_df = pd.read_csv(uploaded_file)
+
+            elif uploaded_file.name.endswith(".xlsx"):
+                bulk_df = pd.read_excel(uploaded_file)
+
+            elif uploaded_file.name.endswith(".json"):
+                bulk_df = pd.read_json(uploaded_file)
+
+            st.write("### Uploaded Data")
+            st.write(bulk_df.head())
+
+            # =========================
+            # PREPROCESSING
+            # =========================
+            df_clean = df.copy()
+
+            if "Unnamed0" in df_clean.columns:
+                df_clean = df_clean.drop("Unnamed0", axis=1)
+
+            combined = pd.concat([df_clean.drop("price", axis=1), bulk_df], ignore_index=True)
+            combined = pd.get_dummies(combined)
+
+            bulk_processed = combined.tail(len(bulk_df))
+
+            # Align columns
+            missing_cols = set(model.feature_names_in_) - set(bulk_processed.columns)
+            for col in missing_cols:
+                bulk_processed[col] = 0
+
+            bulk_processed = bulk_processed[model.feature_names_in_]
+
+            # =========================
+            # PREDICTION
+            # =========================
+            predictions = model.predict(bulk_processed)
+
+            bulk_df["Predicted Price"] = predictions
+
+            st.success("✅ Predictions generated!")
+
+            st.write("### Results")
+            st.write(bulk_df)
+
+            # =========================
+            # DOWNLOAD
+            # =========================
+            st.download_button(
+                "⬇️ Download Results",
+                bulk_df.to_csv(index=False),
+                file_name="bulk_predictions.csv"
+            )
+
+        except Exception as e:
+            st.error(f"Error: {e}")
 
 # =========================
 # VISUALIZATION PAGE
