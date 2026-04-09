@@ -487,21 +487,32 @@ elif page == "Prediction":
     """, unsafe_allow_html=True)
 
     # =========================
+    # USER GUIDELINES
+    # =========================
+    st.info("""
+    📌 Input Guidelines:
+    - Carat: 0.2 – 5  
+    - Depth: 55 – 65 %  
+    - Table: 50 – 70 %  
+    - Dimensions (x, y, z): in millimeters (mm)
+    """)
+
+    # =========================
     # FORM INPUT
     # =========================
     with st.form("prediction_form"):
 
         c1, c2 = st.columns(2)
-        carat = c1.number_input("Carat", min_value=0.0)
-        depth = c2.number_input("Depth", min_value=0.0)
+        carat = c1.number_input("Carat (0.2 – 5.0)", min_value=0.1, max_value=10.0, value=1.0)
+        depth = c2.number_input("Depth (%) (55 – 65)", min_value=40.0, max_value=80.0, value=61.0)
 
         c3, c4 = st.columns(2)
-        table = c3.number_input("Table", min_value=0.0)
-        x = c4.number_input("Length (x)", min_value=0.0)
+        table = c3.number_input("Table (%) (50 – 70)", min_value=40.0, max_value=90.0, value=57.0)
+        x = c4.number_input("Length (x) (mm)", min_value=1.0, max_value=15.0, value=5.0)
 
         c5, c6 = st.columns(2)
-        y = c5.number_input("Width (y)", min_value=0.0)
-        z = c6.number_input("Height (z)", min_value=0.0)
+        y = c5.number_input("Width (y) (mm)", min_value=1.0, max_value=15.0, value=5.0)
+        z = c6.number_input("Height (z) (mm)", min_value=1.0, max_value=10.0, value=3.0)
 
         c7, c8, c9 = st.columns(3)
         cut = c7.selectbox("Cut", ["Fair", "Good", "Very Good", "Premium", "Ideal"])
@@ -510,12 +521,34 @@ elif page == "Prediction":
 
         submitted = st.form_submit_button("⚡ Predict Price")
 
+    # =========================
+    # VALIDATION
+    # =========================
     if submitted:
-            
-            add_log(f"Prediction started:") 
+
+        st.write("Button clicked")
+
+        # Basic validation
+        if carat <= 0 or x <= 0 or y <= 0 or z <= 0:
+            st.error("❌ Carat and dimensions must be greater than 0")
+            st.stop()
+
+        if not (50 <= table <= 80):
+            st.error("❌ Table should be between 50–80 %")
+            st.stop()
+
+        if not (50 <= depth <= 70):
+            st.error("❌ Depth should be between 50–70 %")
+            st.stop()
+
+        # =========================
+        # MODEL INPUT
+        # =========================
+        
+        add_log(f"Prediction started:") 
 
 
-            try:
+        try:
                 input_data = pd.DataFrame([{
                     "carat": carat,
                     "cut": cut,
@@ -669,7 +702,7 @@ elif page == "Prediction":
 
                     st.plotly_chart(fig_gauge, use_container_width=True)
 
-            except Exception as e:
+        except Exception as e:
                 add_log(f"Prediction failed: {e}", "error")   # ✅ 3. INSIDE EXCEPT
 
                 st.error(f"Prediction error: {e}")
